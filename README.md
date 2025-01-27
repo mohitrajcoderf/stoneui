@@ -1,26 +1,41 @@
-# my-app
+# StoneUI
 
-This is a Next.js application generated with
-[Create Fumadocs](https://github.com/fuma-nama/fumadocs).
+StoneUI is a collection of re-usable components that you can copy and paste into your web apps.
 
-Run development server:
+## ✨ Features
+
+- 🎨 **Highly Customizable** - Inherits shadcn/ui's design philosophy while retaining Radix UI's powerful declarative component design
+- 🚀 **Great DX** - Declarative API design, reduced boilerplate code, improved development efficiency
+- ♿ **Accessibility** - Built on Radix UI's accessibility support
+- 🎭 **Beautiful Animations** - Thoughtfully designed animations providing intuitive visual feedback
+- 📦 **Easy to Use** - Quick component installation via shadcn CLI
+- 🎯 **TypeScript Support** - Complete TypeScript type definitions
+
+## 🚀 Quick Start
+
+Install components quickly using the CLI tool:
 
 ```bash
-npm run dev
-# or
-pnpm dev
-# or
-yarn dev
+npx shadcn@latest add <component-name>
 ```
 
-Open http://localhost:3000 with your browser to see the result.
+For example, install the button component:
 
-## Learn More
+```bash
+npx shadcn@latest add button
+```
 
-To learn more about Next.js and Fumadocs, take a look at the following
-resources:
+## 📖 Documentation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js
-  features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-- [Fumadocs](https://fumadocs.vercel.app) - learn about Fumadocs
+Visit [localhost:3000](https://localhost:3000) for complete documentation.
+
+## 💖 Credits
+
+StoneUI is heavily inspired by these excellent projects:
+
+- [shadcn/ui](https://ui.shadcn.com)
+- [Radix UI](https://www.radix-ui.com)
+
+## 📄 License
+
+MIT © [StoneUI](LICENSE)
